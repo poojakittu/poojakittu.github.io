@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.31a34a48.js",
+    "main.css": "/static/css/main.36e31271.css",
+    "main.js": "/static/js/main.6b31aab6.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Slide5.png": "/static/media/Slide5.60c7e348d51d4e6a8aee.png",
+    "static/media/Slide1.jpg": "/static/media/Slide1.823f1300ae76092105ec.jpg",
+    "static/media/Pooja_Yadav_Resume.pdf": "/static/media/Pooja_Yadav_Resume.7afa06b103bec1ee6921.pdf",
+    "static/media/Slide6.png": "/static/media/Slide6.806b9362e9ad21b6053b.png",
+    "static/media/Slide7.png": "/static/media/Slide7.8ddea6dbe0ae6fd648bd.png",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.31a34a48.js.map": "/static/js/main.31a34a48.js.map",
+    "main.36e31271.css.map": "/static/css/main.36e31271.css.map",
+    "main.6b31aab6.js.map": "/static/js/main.6b31aab6.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.31a34a48.js"
+    "static/css/main.36e31271.css",
+    "static/js/main.6b31aab6.js"
   ]
 }
