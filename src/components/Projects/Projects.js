@@ -10,7 +10,7 @@ import Slide7 from "../../Assets/img/carousal/Slide7.png";
 function Projects() {
   return (
     <Container fluid>
-      <div style={{ backgroundColor: "#656467", paddingTop: "60px" }}>
+      <div id="project" style={{ backgroundColor: "#656467", paddingTop: "60px" }}>
         <Particle />
         <Container>
           <div

@@ -457,7 +457,21 @@ button:focus {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
+  justify-items: left;
+ 
+  
 }
+.project-card1 {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+  justify-items: left;
+  text-align: left;
+  
+}
+
 
 .project-card-view {
   box-shadow: 0 3px 3px 5px rgba(86, 89, 121, 0.65) !important;

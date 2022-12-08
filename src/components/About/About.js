@@ -17,6 +17,7 @@ function About() {
           height: "65px",
           margin: "auto",
         }}
+        id="about"
       >
         <h1
           className="project-heading"
