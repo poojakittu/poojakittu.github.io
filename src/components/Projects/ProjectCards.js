@@ -27,12 +27,35 @@ function ProjectCards(props) {
             variant="primary"
             href={props.demoLink}
             target="_blank"
-            style={{ marginLeft: "10px" }}
+            style={{ marginLeft: "5px" }}
           >
             <CgWebsite /> &nbsp;
             {"Netlify"}
-          </Button>
-        )}
+          </Button> )}
+          <br/> <br/>
+
+          <img src={props.a}
+          alt="1"
+          width="50"
+          height="50"
+        />{" "}
+        <img src={props.b}
+          alt="1"
+          width="50"
+          height="50"
+        />{" "}
+        <img src={props.c}
+          alt="1"
+          width="50"
+          height="50"
+        />{" "}
+        <img src={props.d}
+          alt="1"
+          width="50"
+          height="50"
+        />{" "}
+        
+       
       </Card.Body>
     </Card>
   );
