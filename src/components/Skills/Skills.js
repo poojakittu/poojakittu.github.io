@@ -6,7 +6,8 @@ import Github from "./Github";
 
 function Skills() {
   return (
-    <Container fluid style={{ backgroundColor: "#a7b5aa" }} id="Skills">
+    <Container fluid style={{ backgroundColor: "#a7b5aa" }} >
+      <div id="skills">
       <Container
         style={{
           justifyContent: "center",
@@ -37,6 +38,7 @@ function Skills() {
           <Github />
         </Row>
       </Container>
+      </div>
     </Container>
   );
 }
