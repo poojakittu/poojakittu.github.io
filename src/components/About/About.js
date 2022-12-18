@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Skills from "../Skills/Skills";
+
 
 import { MyCarousal } from "../my-carousal/my-carousel";
 
@@ -10,12 +10,14 @@ import ResumeNew from "../Resume/ResumeNew";
 function About() {
   return (
     <Container fluid style={{ backgroundColor: "#656467" }}>
+      <br/><br/>
       <div
         style={{
-          width: "80%",
-          backgroundColor: "#1d1a23",
+          width: "85%",
+          backgroundColor: "#a7b5aa",
           height: "65px",
           margin: "auto",
+        
         }}
         id="about"
       >

@@ -2,9 +2,9 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./my-carousel.style.css";
 import Slide1 from "../../Assets/img/carousal/Slide1.jpg";
-import Slide2 from "../../Assets/img/carousal/Slide2.jpg";
+import Slide5 from "../../Assets/img/carousal/Slide5.png";
 import Slide3 from "../../Assets/img/carousal/Slide3.jpg";
-import Slide4 from "../../Assets/img/carousal/Slide4.jpg";
+import Slide6 from "../../Assets/img/carousal/Slide6.png";
 
 const MyCarousal = () => {
   return (
@@ -20,7 +20,7 @@ const MyCarousal = () => {
         <Carousel.Item>
           <img
             className="d-block w-100 custom-img"
-            src={Slide2}
+            src={Slide5}
             alt="Second slide"
           />
         </Carousel.Item>
@@ -34,7 +34,7 @@ const MyCarousal = () => {
         <Carousel.Item>
           <img
             className="d-block w-100 custom-img"
-            src={Slide4}
+            src={Slide6}
             alt="Third slide"
           />
         </Carousel.Item>

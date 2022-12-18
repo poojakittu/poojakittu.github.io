@@ -1,6 +1,11 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
+import {
+  AiFillGithub,
+  // AiOutlineTwitter,
+  
+} from "react-icons/ai";
 
 function Github() {
   return (
@@ -18,11 +23,18 @@ function Github() {
         color="#0373ca"
         fontSize={16}
       />
-      <h1 className="project-heading" style={{ paddingTop: "20px" }}>
+      <h1 className="project-heading" style={{ paddingTop: "20px",marginTop:"70px" }}>
             Github Stats
       </h1>
 
-     <img style={{width:"70%",marginTop:"30px"}} src="https://github-readme-stats.vercel.app/api?username=poojakittu&theme=radical" alt="stats" />
+      <a
+                href="https://github.com/poojakittu"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillGithub />
+              </a>
     </Row>
   );
 }

@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 
-import { Link } from "react-router-dom";
+
 
 import { ImBlog } from "react-icons/im";
 import {
@@ -35,7 +35,7 @@ function NavBar() {
       fixed="top"
       variant="dark"
       expand="md"
-      className={navColour ? "primary" : "bg-primary"}
+      className={navColour ? "bg-primary" : "bg-primary"}
     >
       <Container>
         <Navbar.Brand href="/" className="navbar-brand">
@@ -62,26 +62,9 @@ function NavBar() {
 
             
 
-            <Nav.Item>
-              <Nav.Link
-                href="#project"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
-              </Nav.Link>
-            </Nav.Item>
+           
 
-            <Nav.Item>
-              <Nav.Link
-                href="#contact"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Contact 
-              </Nav.Link>
-            </Nav.Item>
+           
 
             <Nav.Item>
             <Nav.Link
@@ -99,6 +82,28 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Skills
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                href="#project"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            
+            <Nav.Item>
+              <Nav.Link
+                href="#contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Contact 
               </Nav.Link>
             </Nav.Item>
 

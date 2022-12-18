@@ -19,7 +19,8 @@ function Skills() {
             style={{
               width: "100%",
               backgroundColor: "#656467",
-              height: "55px",
+              height: "65px",
+              margin: "auto",
               marginTop: "80px",
             }}
           >
@@ -29,10 +30,11 @@ function Skills() {
           </div>
           <h1 className="project-heading">Front End</h1>
           <Teachstack />
-          <h1 className="project-heading">Back End</h1>
+          <h1 className="project-heading">Tools</h1>
           <Toolstack />
           <br /> <br /> <br /> <br />
-          <h1 className="project-heading" style={{ paddingTop: "20px" }}>
+          <br /> <br /> <br /> <br />
+          <h1 className="project-heading" style={{ paddingTop: "20px" ,marginTop:"60px"}}>
             Github Information
           </h1>
           <Github />

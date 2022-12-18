@@ -6,24 +6,41 @@ import Slide1 from "../../Assets/img/carousal/Slide1.jpg";
 import Slide5 from "../../Assets/img/carousal/Slide5.png";
 import Slide6 from "../../Assets/img/carousal/Slide6.png";
 import Slide7 from "../../Assets/img/carousal/Slide7.png";
+import {
+  DiJavascript1,
+  DiReact,
+  DiNodejs,
+  DiMongodb,
+  DiPython,
+  DiGit,
+} from "react-icons/di";
+
 
 function Projects() {
   return (
     <Container fluid>
-      <div id="project" style={{ backgroundColor: "#656467", paddingTop: "60px" }}>
+      <div id="project" style={{ backgroundColor: "#656467", paddingTop: "60px",marginTop:"1px" }}>
         <Particle />
         <Container>
           <div
-            style={{
-              width: "100%",
-              backgroundColor: "#a7b5aa ",
-              height: "55px",
-            }}
-          >
-            <h1 className="project-heading">
-              <strong className="white"> My Projects </strong>
-            </h1>
-          </div>{" "}
+        style={{
+          width: "100%",
+          backgroundColor: "#a7b5aa",
+          height: "65px",
+          margin: "auto",
+        
+        }}
+        id="about"
+      >
+        <h1
+          className="project-heading"
+          style={{ display: "flex", justifyContent: "space-around" }}
+        >
+          
+          <strong className="white"> My Projects </strong>
+          
+        </h1>
+      </div>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={6} className="project-card">
               <ProjectCard
@@ -38,6 +55,7 @@ function Projects() {
                 b="https://avatars.githubusercontent.com/u/54212428?s=280&v=4"
                 c="https://e7.pngegg.com/pngimages/490/824/png-clipart-product-design-logo-brand-trademark-javascript-logo-text-trademark-thumbnail.png"
                 d="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+                x={<DiJavascript1 />}
               />
               
               
