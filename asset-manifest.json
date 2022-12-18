@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.1fd7a101.css",
-    "main.js": "/static/js/main.1a9acc06.js",
+    "main.css": "/static/css/main.7a9e8513.css",
+    "main.js": "/static/js/main.99c5c15d.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Slide5.png": "/static/media/Slide5.60c7e348d51d4e6a8aee.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/Slide1.jpg": "/static/media/Slide1.823f1300ae76092105ec.jpg",
     "static/media/Pooja_Yadav_Resume.pdf": "/static/media/Pooja_Yadav_Resume.7afa06b103bec1ee6921.pdf",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/Slide6.png": "/static/media/Slide6.806b9362e9ad21b6053b.png",
     "static/media/Slide7.png": "/static/media/Slide7.8ddea6dbe0ae6fd648bd.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.1fd7a101.css.map": "/static/css/main.1fd7a101.css.map",
-    "main.1a9acc06.js.map": "/static/js/main.1a9acc06.js.map",
+    "main.7a9e8513.css.map": "/static/css/main.7a9e8513.css.map",
+    "main.99c5c15d.js.map": "/static/js/main.99c5c15d.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fd7a101.css",
-    "static/js/main.1a9acc06.js"
+    "static/css/main.7a9e8513.css",
+    "static/js/main.99c5c15d.js"
   ]
 }
