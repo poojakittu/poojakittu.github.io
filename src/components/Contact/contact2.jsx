@@ -12,9 +12,7 @@ const Contact2 = () => {
    
         
         <div style={{width:"100px"}}>
-        <h2 className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Contact
-          </h2>
+        
           <form
             onSubmit={handleSubmit}
             name="contact"
