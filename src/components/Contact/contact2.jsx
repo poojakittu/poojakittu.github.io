@@ -11,7 +11,7 @@ const Contact2 = () => {
   return (
    
         
-        <div style={{width:"100px"}}>
+        <div style={{width:"100px", marginLeft:"100px"}}>
         
           <form
             onSubmit={handleSubmit}
@@ -20,6 +20,7 @@ const Contact2 = () => {
             action="https://getform.io/f/a5bbeab4-3505-457e-bcda-603c8bc15711"
             className=" flex flex-col w-full md:w-1/2"
           >
+            
             <input
               type="text"
               name="name"
@@ -42,7 +43,7 @@ const Contact2 = () => {
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
 
-           <button type="button" class="btn btn-secondary" width="50px">Send Message</button>
+           <button type="button" class="btn btn-secondary" width="50px" style={{marginLeft:"70px"}}>Send </button>
           </form>
         </div>
       
