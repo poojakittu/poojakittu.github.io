@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.7a9e8513.css",
-    "main.js": "/static/js/main.b8ed708a.js",
+    "main.js": "/static/js/main.7323dd42.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Slide5.png": "/static/media/Slide5.60c7e348d51d4e6a8aee.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/Slide1.jpg": "/static/media/Slide1.823f1300ae76092105ec.jpg",
-    "static/media/Pooja_Yadav_Resume.pdf": "/static/media/Pooja_Yadav_Resume.7afa06b103bec1ee6921.pdf",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/Slide6.png": "/static/media/Slide6.806b9362e9ad21b6053b.png",
@@ -17,12 +16,12 @@
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.7a9e8513.css.map": "/static/css/main.7a9e8513.css.map",
-    "main.b8ed708a.js.map": "/static/js/main.b8ed708a.js.map",
+    "main.7323dd42.js.map": "/static/js/main.7323dd42.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a9e8513.css",
-    "static/js/main.b8ed708a.js"
+    "static/js/main.7323dd42.js"
   ]
 }
