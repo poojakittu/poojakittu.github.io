@@ -11,7 +11,7 @@ const Contact2 = () => {
   return (
    
         
-        <div style={{width:"100px", marginLeft:"100px"}}>
+        <div style={{width:"50%", margin:"auto",border:"1px solid black"}}>
         
           <form
             onSubmit={handleSubmit}
@@ -19,6 +19,7 @@ const Contact2 = () => {
             method="POST"
             action="https://getform.io/f/a5bbeab4-3505-457e-bcda-603c8bc15711"
             className=" flex flex-col w-full md:w-1/2"
+            width="100%"
           >
             
             <input
@@ -27,6 +28,7 @@ const Contact2 = () => {
               placeholder="Enter your name"
               required
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              
             />
             <input
               type="email"

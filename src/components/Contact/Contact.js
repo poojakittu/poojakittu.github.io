@@ -1,64 +1,40 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-// import {
-//   AiFillGithub,
-//   // AiOutlineTwitter,
-// } from "react-icons/ai";
-// import { FaLinkedinIn } from "react-icons/fa";
-
 import "font-awesome/css/font-awesome.min.css";
-
+import { Container, Row, Col } from "react-bootstrap";
 import "./Contacts.css";
 import Contact2 from "./contact2";
-
-function Contact() {
+const Contact = () => {
+  function handleSubmit(e) {
+    setTimeout(() => {
+      e.target.reset();
+    }, 3000);
+  }
   return (
-    <Container fluid style={{ backgroundColor: "#a7b5aa", paddingTop: "60px" }}>
-      <div
-        style={{
-          justifyContent: "center",
-          colour: "white",
-        }}
-        id="contact"
-      >
-        <Row>
-          <br /> <br /> <br />
-          <div
-            style={{
-              width: "85%",
-              backgroundColor: "#656467",
-              height: "65px",
-              margin: "auto",
-            }}
-            id="about"
-          >
-            <h1
-              className="project-heading"
-              style={{ display: "flex", justifyContent: "space-around" }}
-            >
-              <strong className="white"> Contact </strong>
-            </h1>
-          </div>
-          <Col md={4} className="project-card">
-            <Container>
-              <img
-                src="https://avatars.githubusercontent.com/u/107460416?v=4"
-                alt="abc"
-                width="280"
-                height="280"
-                borderRadius="50%"
-              />
-            </Container>
-          </Col>
-          <Col md={4} className="contact-container">
-          <Row>
-          <Col>
+    <div className="contact-container">
+      <Container id="contact">
+        <div
+          style={{
+            width: "100%",
+            backgroundColor: "#656467",
+            height: "65px",
+            margin: "auto",
+            marginTop: "40px",
+            marginBottom: "40px",
+          }}
+        >
+          <h1 className="project-heading">
+            <strong className="white"> Contact </strong>
+          </h1>
+        </div>
+
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={6} className="project-card">
             <h2>Get In Touch</h2>
             <h5>
               Liked my work? Want to get in touch? <br />
               You can reach out to me at-
             </h5>
-           
+
             <br />
             <h5>
               <a href="poojayadav.yadav173@gmail.com" className="contact-me">
@@ -80,16 +56,48 @@ function Contact() {
               </a>
             </h5>
           </Col>
-          
-        </Row>
+          <Col md={6} className="project-card">
+            <div style={{ margin: "auto", width: "50%" }}>
+              <form
+                onSubmit={handleSubmit}
+                name="contact"
+                method="POST"
+                action="https://getform.io/f/a5bbeab4-3505-457e-bcda-603c8bc15711"
+                className=" flex flex-col w-full md:w-1/2"
+                width="100%"
+              >
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Enter your name"
+                  required
+                  className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                  className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+                />
+                <textarea
+                  name="message"
+                  placeholder="Enter your message"
+                  rows="5"
+                  required
+                  className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+                ></textarea>
+
+                <button type="button" class="btn btn-secondary" width="50px">
+                  Send{" "}
+                </button>
+              </form>
+            </div>
           </Col>
-          <Col md={4} className="contact-container">
-            <Contact2/>
-          </Col>
         </Row>
-      </div>
-    </Container>
+      </Container>
+    </div>
   );
-}
+};
 
 export default Contact;

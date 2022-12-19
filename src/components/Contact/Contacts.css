@@ -11,10 +11,8 @@
     color: rgb(74, 74, 74);
   }
   
-  .contact-me > span:hover {
-    color: black;
-  }
+ 
   .contact-container {
-  
+    background-color: #a7b5aa;
     padding: 40px;
   }

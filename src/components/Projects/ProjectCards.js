@@ -14,8 +14,8 @@ function ProjectCards(props) {
           height: "65px",
           margin: "auto",
           color: "white",
-          padding:"10px",
-          borderRadius:"20px"
+          padding: "10px",
+          borderRadius: "20px",
         }}
       >
         <h3>{props.title}</h3>
@@ -27,37 +27,49 @@ function ProjectCards(props) {
         width="100%"
         height="300px"
         color="black"
-
       />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
-        {"\n"}
-        {"\n"}
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-        {!props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "5px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"Netlify"}
+        <div
+          style={{
+            display: "flex",
+            gap: "10px",
+            margin: "auto",
+            justifyContent: "space-between",
+            alignItems: "center",
+            width: "60%",
+          }}
+        >
+          <Button variant="primary" href={props.ghLink} target="_blank">
+            <BsGithub /> &nbsp; GitHub
           </Button>
-        )}
+          {"\n"}
+          {"\n"}
+          {"\n"}
+          {"\n"}
+          {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+          {!props.isBlog && props.demoLink && (
+            <Button
+              variant="primary"
+              href={props.demoLink}
+              target="_blank"
+              style={{ marginLeft: "5px" }}
+            >
+              <CgWebsite /> &nbsp;
+              {"Netlify"}
+            </Button>
+          )}
+        </div>
         <br /> <br />
-        <img src={props.a} alt="1" width="50" height="50" />{" "}
-        <img src={props.b} alt="1" width="50" height="50" />{" "}
-        <img src={props.c} alt="1" width="50" height="50" />{" "}
-        <img src={props.d} alt="1" width="50" height="50" />{" "}
-       
+        <div style={{ gap: "2px" }}>
+          <img src={props.a} alt="1" width="50" height="50" />{" "}
+          <img src={props.b} alt="1" width="50" height="50" />{" "}
+          <img src={props.c} alt="1" width="50" height="50" />{" "}
+          <img src={props.d} alt="1" width="50" height="50" />{" "}
+        </div>
       </Card.Body>
     </Card>
   );
