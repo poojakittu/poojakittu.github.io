@@ -20,34 +20,35 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
+        <h4>CPP</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+        <h4>Java Script</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
+        <h4>Node.js</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <h4>React</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+        <h4>Python</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <SiNextdotjs />
+        <h4>Next.js</h4>
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+        <h4>Git</h4>
+      </Col>
+     
+      
+      
     </Row>
   );
 }

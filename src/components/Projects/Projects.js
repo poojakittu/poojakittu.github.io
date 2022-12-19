@@ -15,32 +15,36 @@ import {
   DiGit,
 } from "react-icons/di";
 
-
 function Projects() {
   return (
-    <Container fluid>
-      <div id="project" style={{ backgroundColor: "#656467", paddingTop: "60px",marginTop:"1px" }}>
+    <Container fluid style={{width:"100%"}}>
+      <div
+        id="project"
+        style={{
+          backgroundColor: "#656467",
+          paddingTop: "60px",
+          marginTop: "2px",
+          width: "100%",
+        }}
+      >
         <Particle />
         <Container>
           <div
-        style={{
-          width: "100%",
-          backgroundColor: "#a7b5aa",
-          height: "65px",
-          margin: "auto",
-        
-        }}
-        id="about"
-      >
-        <h1
-          className="project-heading"
-          style={{ display: "flex", justifyContent: "space-around" }}
-        >
-          
-          <strong className="white"> My Projects </strong>
-          
-        </h1>
-      </div>
+            style={{
+              width: "100%",
+              backgroundColor: "#a7b5aa",
+              height: "65px",
+              margin: "auto",
+            }}
+            id="about"
+          >
+            <h1
+              className="project-heading"
+              style={{ display: "flex", justifyContent: "space-around" }}
+            >
+              <strong className="white"> My Projects </strong>
+            </h1>
+          </div>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={6} className="project-card">
               <ProjectCard
@@ -57,9 +61,6 @@ function Projects() {
                 d="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
                 x={<DiJavascript1 />}
               />
-              
-              
-                
             </Col>
 
             <Col md={6} className="project-card">

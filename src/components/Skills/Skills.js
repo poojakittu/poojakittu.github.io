@@ -6,7 +6,7 @@ import Github from "./Github";
 
 function Skills() {
   return (
-    <Container fluid style={{ backgroundColor: "#a7b5aa" }} >
+    <Container fluid style={{ backgroundColor: "#a7b5aa"}} >
       <div id="skills">
       <Container
         style={{
