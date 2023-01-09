@@ -2,7 +2,13 @@ import React from "react";
 import "font-awesome/css/font-awesome.min.css";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Contacts.css";
-import Contact2 from "./contact2";
+import {
+  AiFillGithub,
+  // AiOutlineTwitter,
+  
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+
 const Contact = () => {
   function handleSubmit(e) {
     setTimeout(() => {
@@ -55,8 +61,26 @@ const Contact = () => {
                 <span>+91 7082382325</span>
               </a>
             </h5>
+            <h5 className="contact-me">
+                <span>
+                  {" "}
+                  <AiFillGithub />
+                </span>
+              <a href="https://github.com/poojakittu" className="contact-me" alt="github">
+                <span>Github</span>
+              </a>
+            </h5>
+            <h5 className="contact-me">
+                <span>
+                  {" "}
+                  <FaLinkedinIn />
+                </span>
+              <a href="https://www.linkedin.com/in/pooja-yadav-21611721b/" className="contact-me" alt="linkedin">
+                <span>Linkedin</span>
+              </a>
+            </h5>
           </Col>
-          <Col md={6} className="project-card">
+          <Col md={5} className="project-card">
             <div style={{ margin: "auto", width: "50%" }}>
               <form
                 onSubmit={handleSubmit}

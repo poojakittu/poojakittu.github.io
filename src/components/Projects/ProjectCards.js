@@ -16,6 +16,7 @@ function ProjectCards(props) {
           color: "white",
           padding: "10px",
           borderRadius: "20px",
+          border:"1px solid gray"
         }}
       >
         <h3>{props.title}</h3>

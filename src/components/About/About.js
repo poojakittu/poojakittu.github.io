@@ -53,8 +53,8 @@ function About() {
           <Col md={8}>
             <div style={{ color: "white", marginTop: "20px", padding: "30px" }}>
               <h3 style={{ textAlign: "left" }}>Hi there! I am</h3>
-              <h2>
-                <center>POOJA YADAV</center>
+              <h2 >
+                <center >POOJA YADAV</center>
               </h2>
               <div style={{ textAlign: "left" }}>
                 <p>
@@ -102,7 +102,7 @@ function About() {
             </h1>
             <h1 className="heading-name" style={{ color: "white" }}>
               I'M
-              <strong className="main-name" style={{ color: "#3f6b96" }}>
+              <strong className="main-name" style={{ color: "#0d6efd" }}>
                 {" "}
                 Pooja Yadav
               </strong>
