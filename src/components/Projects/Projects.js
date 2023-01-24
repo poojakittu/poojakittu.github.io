@@ -17,9 +17,9 @@ import {
 
 function Projects() {
   return (
-    <Container fluid style={{width:"100%"}}>
+    <Container fluid style={{width:"100%"}} id="project">
       <div
-        id="project"
+        
         style={{
           backgroundColor: "#656467",
           paddingTop: "60px",

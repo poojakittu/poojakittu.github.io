@@ -66,7 +66,7 @@ const Contact = () => {
                   {" "}
                   <AiFillGithub />
                 </span>
-              <a href="https://github.com/poojakittu" className="contact-me" alt="github">
+              <a target="_blank" href="https://github.com/poojakittu" className="contact-me" alt="github">
                 <span>Github</span>
               </a>
             </h5>
@@ -75,7 +75,7 @@ const Contact = () => {
                   {" "}
                   <FaLinkedinIn />
                 </span>
-              <a href="https://www.linkedin.com/in/pooja-yadav-21611721b/" className="contact-me" alt="linkedin">
+              <a target="_blank" href="https://www.linkedin.com/in/pooja-yadav-21611721b/" className="contact-me" alt="linkedin">
                 <span>Linkedin</span>
               </a>
             </h5>

@@ -9,7 +9,7 @@ import ResumeNew from "../Resume/ResumeNew";
 
 function About() {
   return (
-    <Container fluid style={{ backgroundColor: "#656467" }}>
+    <Container fluid style={{ backgroundColor: "#656467" }} id="about">
       <br/><br/>
       <div
         style={{
@@ -21,16 +21,12 @@ function About() {
         }}
         id="about"
       >
-        <h1
-          className="project-heading"
-          style={{ display: "flex", justifyContent: "space-around" }}
-        >
-          <div> </div> <div> </div>
-          <strong className="white"> About Me </strong>
-          <div style={{ paddingLeft: "50px" }}>
-            <ResumeNew />
-          </div>
-        </h1>
+         <h1
+              className="project-heading"
+              style={{ display: "flex", justifyContent: "space-around" }}
+            >
+              <strong className="white"> About me </strong>
+            </h1>
       </div>
       <Container>
         <Row
