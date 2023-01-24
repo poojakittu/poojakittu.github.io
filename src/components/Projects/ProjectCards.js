@@ -26,7 +26,6 @@ function ProjectCards(props) {
         src={props.imgPath}
         alt="card-img"
         width="100%"
-        height="300px"
         color="black"
       />
       <Card.Body>

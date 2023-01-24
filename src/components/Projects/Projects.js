@@ -55,7 +55,7 @@ function Projects() {
                 Enjoy a great meat-free dining experience. Easily save animal lives, health, environment and money now!"
                 ghLink="https://github.com/poojakittu/impolite-support-6582/tree/main/kind-meal"
                 demoLink="https://bmmbmn.netlify.app/home"
-                a="https://ih1.redbubble.net/image.399555340.5300/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg"
+                a="https://3.bp.blogspot.com/-goz-8SiS5u0/V9O9SLvAX8I/AAAAAAAAJ4E/_1k4Hx--g-I5ifGdcG0XaEgSR0gSgvXEgCLcB/s1600/Kindmeal_EM1.png"
                 b="https://avatars.githubusercontent.com/u/54212428?s=280&v=4"
                 c="https://e7.pngegg.com/pngimages/490/824/png-clipart-product-design-logo-brand-trademark-javascript-logo-text-trademark-thumbnail.png"
                 d="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
