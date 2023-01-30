@@ -152,6 +152,7 @@ button:focus {
 }
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
+  height: 140px;
 }
 
 .logo {
@@ -451,7 +452,7 @@ button:focus {
   background-image: var(--section-background-color) !important;
 }
 
-.project-card {
+/* .project-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
   padding-left: 25px !important;
@@ -459,8 +460,8 @@ button:focus {
   height: auto !important;
   justify-items: left;
  
-  
-}
+   */
+
 .project-card1 {
   padding-top: 50px !important;
   padding-bottom: 50px !important;

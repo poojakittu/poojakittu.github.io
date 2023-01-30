@@ -1,32 +1,30 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-
 import { MyCarousal } from "../my-carousal/my-carousel";
 
 import Type from "./Type";
-import ResumeNew from "../Resume/ResumeNew";
+
 
 function About() {
   return (
-    <Container fluid style={{ backgroundColor: "#656467" }} id="about">
-      <br/><br/>
+    <Container fluid style={{ backgroundColor: "White" }} id="about">
+      <br />
+      <br />
       <div
         style={{
           width: "85%",
-          backgroundColor: "#a7b5aa",
           height: "65px",
           margin: "auto",
-        
         }}
         id="about"
       >
-         <h1
-              className="project-heading"
-              style={{ display: "flex", justifyContent: "space-around" }}
-            >
-              <strong className="white"> About me </strong>
-            </h1>
+        <h1
+          className="project-heading"
+          style={{ display: "flex", justifyContent: "space-around" }}
+        >
+          <strong style={{ color: "Black" }}> About us </strong>
+        </h1>
       </div>
       <Container>
         <Row
@@ -34,55 +32,42 @@ function About() {
             justifyContent: "center",
           }}
         >
-          <Col md={4} className="project-card">
-            <Container>
-              <img
-                src="https://avatars.githubusercontent.com/u/107460416?v=4"
-                alt="abc"
-                width="280"
-                height="280"
-                borderRadius="50%"
-              />
-            </Container>
-          </Col>
-
-          <Col md={8}>
-            <div style={{ color: "white", marginTop: "20px", padding: "30px" }}>
-              <h3 style={{ textAlign: "left" }}>Hi there! I am</h3>
-              <h2 >
-                <center >POOJA YADAV</center>
+          <Col md={12}>
+            <div style={{ marginTop: "20px", padding: "30px" }}>
+              <h2>
+                <center> DREAMWEAVER TECHNOLOGIES PRIVATE LIMITED</center>
               </h2>
+              <br />
               <div style={{ textAlign: "left" }}>
                 <p>
-                  {" "}
-                  <ul>
-                    <li>
-                      I am currently learning full stack web development at
-                      Masai School. I am passionate about solving real-world
-                      problems and actively looking for opportunities in the
-                      field of web development and software engineering
-                    </li>
-                  </ul>
+                  Dreamweaver Technologies Private Limited is a Private
+                  incorporated on 22 May 2017. It is classified as Non-govt
+                  company and is registered at Registrar of Companies, Pune. Its
+                  authorized share capital is Rs. 1,000,000 and its paid up
+                  capital is Rs. 100,000. It is inolved in Business activities
+                  n.e.c.
                 </p>
                 <p>
-                  {" "}
-                  <ul>
-                    <li>
-                      I was always interested in web development but did not
-                      have correct guidance but when i got to know about Masai
-                      School I was overwhelmed and immediately took admission.
-                    </li>
-                  </ul>
+                  Dreamweaver Technologies Private Limited's Annual General
+                  Meeting (AGM) was last held on 30 September 2019 and as per
+                  records from Ministry of Corporate Affairs (MCA), its balance
+                  sheet was last filed on 31 March 2019.
                 </p>
                 <p>
-                  {" "}
-                  <ul>
-                    <li>
-                      I'm a passionate Developer, with strong administrative and
-                      communication skills, good attention to detail and the
-                      ability to write efficient code using MERN Stack.
-                    </li>
-                  </ul>
+                  Directors of Dreamweaver Technologies Private Limited are
+                  Saniya Sikandar Pathan, Aniket Rajendra Shinde, .
+                </p>
+                <p>
+                  Dreamweaver Technologies Private Limited's Corporate
+                  Identification Number is (CIN) U74999PN2017PTC170560 and its
+                  registration number is 170560.Its Email address is
+                  pathansikandar@yahoo.com and its registered address is ROW
+                  HOUSE NO. 12, KAPIL WOODROW ESTATE BEHIND RUBY HALL CLINIC
+                  HOSPITAL AZAD NAGAR, WANOWRIE Pune MH 411022 IN .
+                </p>
+                <p>
+                  Current status of Dreamweaver Technologies Private Limited is
+                  - Strike Off.
                 </p>
               </div>
             </div>
@@ -97,10 +82,9 @@ function About() {
               </span>
             </h1>
             <h1 className="heading-name" style={{ color: "white" }}>
-              I'M
               <strong className="main-name" style={{ color: "#0d6efd" }}>
                 {" "}
-                Pooja Yadav
+                SMARTER SOLUTIONS TAILOR-MADE FOR YOU
               </strong>
             </h1>
 

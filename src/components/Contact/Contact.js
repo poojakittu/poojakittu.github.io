@@ -21,7 +21,7 @@ const Contact = () => {
         <div
           style={{
             width: "100%",
-            backgroundColor: "#656467",
+            backgroundColor: "white",
             height: "65px",
             margin: "auto",
             marginTop: "40px",
@@ -29,7 +29,7 @@ const Contact = () => {
           }}
         >
           <h1 className="project-heading">
-            <strong className="white"> Contact </strong>
+            <strong style={{ color: "Black" }}> Contact Us</strong>
           </h1>
         </div>
 
@@ -43,39 +43,31 @@ const Contact = () => {
 
             <br />
             <h5>
-              <a href="poojayadav.yadav173@gmail.com" className="contact-me">
+              <a href="pathansikandar@yahoo.com" className="contact-me">
                 <span>
                   {" "}
                   <i className="fa fa-envelope"></i>
                 </span>
-                <span>poojayadav.yadav173@gmail.com</span>
+                <span>pathansikandar@yahoo.com</span>
               </a>
             </h5>
 
             <h5>
-              <a href="tel: +91 7082382325" className="contact-me">
+              <a href="tel: +91 9876654444" className="contact-me">
                 <span>
                   {" "}
                   <i className="fa fa-phone"></i>
                 </span>
-                <span>+91 7082382325</span>
+                <span>+91 9876654444</span>
               </a>
             </h5>
-            <h5 className="contact-me">
-                <span>
-                  {" "}
-                  <AiFillGithub />
-                </span>
-              <a target="_blank" href="https://github.com/poojakittu" className="contact-me" alt="github">
-                <span>Github</span>
-              </a>
-            </h5>
+            
             <h5 className="contact-me">
                 <span>
                   {" "}
                   <FaLinkedinIn />
                 </span>
-              <a target="_blank" href="https://www.linkedin.com/in/pooja-yadav-21611721b/" className="contact-me" alt="linkedin">
+              <a target="_blank" href="https://www.linkedin.com/in/abc/" className="contact-me" alt="linkedin">
                 <span>Linkedin</span>
               </a>
             </h5>
